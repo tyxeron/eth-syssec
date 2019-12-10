@@ -7,12 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>index</title>
   <link rel="stylesheet" href="https://stackedit.io/style.css" />
-  ```
+  
 <script type="text/javascript" src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 <link href="https://google-code-prettify.googlecode.com/svn/loader/prettify.css" rel="stylesheet">
-
-```
 </head>
 
 <body class="stackedit">
@@ -35,5 +33,5 @@
 
 </html>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTU3NDkzNTNdfQ==
+eyJoaXN0b3J5IjpbLTM0ODgxNDQwN119
 -->
