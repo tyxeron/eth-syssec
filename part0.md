@@ -6,7 +6,7 @@
 - Message Authentication Code (MAC)
 	- Input: message, secret key
 	- Output: authenticator of fixed length (the MAC)
-	- Message Authentication: \\(\operatorname{MAC} = C(k, m)\\)
+	- Message Authentication: $$\\(\operatorname{MAC} = C(k, m)\\$$)
 	- Message Authentication & Confidentiality: \\(\operatorname{Enc}(k_2, (m \, || \, C(k_1, m)))\\)
 
 ## Block Ciphers
