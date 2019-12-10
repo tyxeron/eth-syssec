@@ -11,7 +11,7 @@
 
 ## Access Control
 - OS has to decide if requests from multiple subjects (e.g. users, processes) to perform operations (e.g. read, write, execute) on objects (e.g. socket, files) should be allowed or not
-- Lampson's Access Matrix: a function $(ops(s, o) \subseteq \operatorname{OP} \\] determines which operation in the set $(\operatorname{OP} \\] a subject $(s \\] can do on an object $(o \\].
+- Lampson's Access Matrix: a function  \\[ops(s, o) \subseteq \operatorname{OP} \\] determines which operation in the set  \\[\operatorname{OP} \\] a subject  \\[s \\] can do on an object  \\[o \\].
 - Discretionary Access Control (DAC)
 	- Access restriction to an object is based on the subject it belongs to.
 	- Depending on the access permission of the subject it can pass its permissions to any other subject
@@ -32,5 +32,5 @@
 	- Tamperproof: not possible to modify or disable by unauthorised subjects
 	- Verifiable: small enough to be analysed
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNDUyMDM1XX0=
+eyJoaXN0b3J5IjpbLTE0OTEyNzkxMDddfQ==
 -->
