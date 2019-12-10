@@ -6,7 +6,7 @@
 - Message Authentication Code (MAC)
 	- Input: message, secret key
 	- Output: authenticator of fixed length (the MAC)
-	- Message Authentication: $$\\(\operatorname{MAC} = C(k, m)\\$$)
+	- Message Authentication: \\(\operatorname{MAC} = C(k, m)\\)
 	- Message Authentication & Confidentiality: \\(\operatorname{Enc}(k_2, (m \, || \, C(k_1, m)))\\)
 
 ## Block Ciphers
@@ -38,3 +38,6 @@
 		- small changes to input impact whole output
 		- S-Boxes designed in a way that one bit changing in the input results in at least two bits changed in the output of the S-Box
 		- Permutations designed in a way that output of one S-Box is the input of multiple S-Boxes in the next round
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTkwNTM3MjE2OV19
+-->
