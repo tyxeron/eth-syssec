@@ -1,8 +1,5 @@
 # System Security, ETH Zurich, AS19
 
-[gimmick:theme](readable)
-[gimmick: math]()
-
 [Home](index.md)
 [Part 0](part0.md)
 [Part 1](part1.md)
@@ -16,3 +13,6 @@
 [Part 9](part9.md)
 [TPM](tpm.md)
 [Todos](todo.md)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTExNzM5Nzc3MzBdfQ==
+-->
