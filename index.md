@@ -13,8 +13,6 @@ System Security, ETH Zurich, AS14
 - [Part 8: Securing Commercial OSs & SELinux](part8.md)
 - [Part 9: Android Security](part9.md)
 - [TPM](tpm.md)
-
-\\[ x = {-b \pm \sqrt{b^2-4ac} \over 2a} \\]
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTc2Mzk5Mjg4Ml19
 -->
