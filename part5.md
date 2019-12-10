@@ -6,8 +6,8 @@
 	- software-based attestation doesn't need a secret
 	- allows additional use cases
 - Initial situation:
-	- Device $(D$) on which application runs is untrusted
-	- External verifier $(V$) is trusted
+	- Device $(D \\] on which application runs is untrusted
+	- External verifier $(V \\] is trusted
 	- Verifier wants to obtain proof about the memory content and integrity of the device
 	- Device runs a verification function to create a proof
 	- Verifier sends challenge and checks response
@@ -15,14 +15,14 @@
 ## Strawman Verification Function:
 - Approach 1
 	- Verifier asks device to use cryptographic hash function over memory
-		1. $(V \to D: \text{request checksum}$)
-		2. $(D \to V: \operatorname{SHA-3}(\text{Memory})$)
+		1. $(V \to D: \text{request checksum} \\]
+		2. $(D \to V: \operatorname{SHA-3}(\text{Memory}) \\]
 	- Attack on scheme: malicious code precomputes correct hash and replays it the moment requested
 - Approach 2
 	- Verifier picks a random challenge
 	- Device calculates a MAC (Message Authentication Code) using the verifier's challenge as the key
-		1. $(V \to D: \text{request checksum, send random key along}$)
-		2. $(D \to V: \operatorname{HMAC-SHA-3}(K, \text{Memory})$)
+		1. $(V \to D: \text{request checksum, send random key along} \\]
+		2. $(D \to V: \operatorname{HMAC-SHA-3}(K, \text{Memory}) \\]
 	- Attack on scheme: Precompute correct checksum over expected memory and replay
 ## Reflection
 - Software verifies its own operation
@@ -68,10 +68,10 @@
 	2. Set up untampered code execution environment
 	3. Execute code
 - Protocol
-	1. $(V \to D: \text{nonce, input}$)
-	2. $(D \to V: \text{checksum}$)
-	3. $(D \to V: \text{hash}$)
-	4. $(D \to V: \text{output}$)
+	1. $(V \to D: \text{nonce, input} \\]
+	2. $(D \to V: \text{checksum} \\]
+	3. $(D \to V: \text{hash} \\]
+	4. $(D \to V: \text{output} \\]
 	5. Verifier checks if time between first and second step is smaller than the expected time
 	6. Verifier checks it checksum is equal to the expected one
 - Intuition for correctness: Checksum is incorrect or checksum is computation is slowed down by attacker
@@ -94,5 +94,5 @@
 - Attacker can know entire memory before key establishment of both parties
 - Attack must introduce a more powerful node into network, no remote attack possible
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4Nzk5OTY0N119
+eyJoaXN0b3J5IjpbLTEyOTAwNDExMzVdfQ==
 -->
