@@ -18,7 +18,7 @@
 	- PCR 0 to PCR 15
 	- only reset at system boot
 	- each 128 bits
-	- Only writeable by `extend` operation: $(\operatorname{extend}(PCR_i, data) = \operatorname{SHA-1}(PCR_i || \operatorname{SHA-1}(data)) \\]
+	- Only writeable by `extend` operation:  \\[\operatorname{extend}(PCR_i, data) = \operatorname{SHA-1}(PCR_i || \operatorname{SHA-1}(data)) \\]
 	- Used as a *hash-chain* to store *log of events*
 	- Only final event is checked. Check fails if any intermediate value was incorrect
 - SHA1 Engine
@@ -29,7 +29,7 @@
 
 ## TPM PCRs
 - Primary security requirement for the hashes is integrity, i.e. make sure nothing is altered
-- Store as hash-chain by `extend` operation: $(\operatorname{extend}(PCR_i, data) = \operatorname{SHA-1}(PCR_i || \operatorname{SHA-1}(data)) \\]
+- Store as hash-chain by `extend` operation:  \\[\operatorname{extend}(PCR_i, data) = \operatorname{SHA-1}(PCR_i || \operatorname{SHA-1}(data)) \\]
 
 ## TPM Misconceptions
 - not a general-purpose processor
@@ -86,5 +86,5 @@
 - Allows to run software without trusting its environment
 - Only hardware and the software inside the IEE is part of the TCB
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MzAxMDQyNl19
+eyJoaXN0b3J5IjpbLTE1MTA5Mzg4NTRdfQ==
 -->
